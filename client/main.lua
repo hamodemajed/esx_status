@@ -19,7 +19,7 @@ function GetStatusData(minimal)
 				percent = (Status[i].val / Config.StatusMax) * 100
 			}
 		else
-			status[#status+1] {
+			status[#status+1] = {
 				name    = Status[i].name,
 				val     = Status[i].val,
 				color   = Status[i].color,
